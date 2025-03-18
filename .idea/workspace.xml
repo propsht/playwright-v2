@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3c91e9e-b3ea-4b80-a508-95ff51a0cec3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Igor playwright.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/large.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/small.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-checker/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-checker/check_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest/utils_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/email-checker/authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/.auth/storage_state.json" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/.auth/storage_state.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +44,10 @@
     "Python.authentication.executor": "Run",
     "Python.event.executor": "Run",
     "Python.locators.executor": "Run",
+    "Python.utils_test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/propsht/Documents/QA/projects/my-pytest-course/Igor playwright/playwright/auth"
+    "git-widget-placeholder": "email-check",
+    "last_opened_file_path": "/Users/propsht/Documents/QA/projects/playwright-v2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,7 +62,7 @@
       <recent name="$PROJECT_DIR$/tasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.authentication">
+  <component name="RunManager" selected="Python.utils_test">
     <configuration name="actions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Igor playwright" />
       <option name="ENV_FILES" value="" />
@@ -85,28 +77,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Igor playwright" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,13 +151,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="utils_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Igor playwright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytest/utils_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.utils_test" />
         <item itemvalue="Python.authentication" />
         <item itemvalue="Python.event" />
         <item itemvalue="Python.actions" />
         <item itemvalue="Python.locators" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>

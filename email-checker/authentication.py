@@ -35,7 +35,7 @@ with sync_playwright() as playwright:  # Fixed variable name
     next_btn.click()
 
     # Save authentication state after full login
-    context.storage_state(path="playwright/auth/storage_state.json")
+    context.storage_state(path="playwright/.auth/storage_state.json")
 
     # Pause for debugging
     page.pause()
