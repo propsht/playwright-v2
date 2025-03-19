@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c91e9e-b3ea-4b80-a508-95ff51a0cec3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/email-checker/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-checker/check_email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest/utils_test.py" afterDir="false" />
+    <list default="true" id="e3c91e9e-b3ea-4b80-a508-95ff51a0cec3" name="Changes" comment="email checker and start pytest">
+      <change afterPath="$PROJECT_DIR$/pytest/report_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/email-checker/authentication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/.auth/storage_state.json" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/.auth/storage_state.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest/report.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest/utils_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/utils_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,8 @@
     "Python.utils_test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "email-check",
-    "last_opened_file_path": "/Users/propsht/Documents/QA/projects/playwright-v2"
+    "last_opened_file_path": "/Users/propsht/Documents/QA/projects/playwright-v2",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -199,6 +197,30 @@
       <option name="presentableId" value="Default" />
       <updated>1738633155534</updated>
     </task>
+    <task id="LOCAL-00001" summary="email checker and start pytest">
+      <option name="closed" value="true" />
+      <created>1742260974954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742260974954</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="email checker and start pytest" />
+    <option name="LAST_COMMIT_MESSAGE" value="email checker and start pytest" />
   </component>
 </project>
