@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c91e9e-b3ea-4b80-a508-95ff51a0cec3" name="Changes" comment="video, screenshots, trace">
-      <change afterPath="$PROJECT_DIR$/playwright/Assertions/inputs-checkbox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/Assertions/test_assertions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/Assertions/test_atributes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/codegen.py" afterDir="false" />
+    <list default="true" id="e3c91e9e-b3ea-4b80-a508-95ff51a0cec3" name="Changes" comment="assertions">
+      <change afterPath="$PROJECT_DIR$/ui testing/class_attribute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui testing/dynamic_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui testing/hidden_layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui testing/load_delay.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742749069045</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="assertions">
+      <option name="closed" value="true" />
+      <created>1742787572552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742787572552</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +251,7 @@
     <MESSAGE value="email checker and start pytest" />
     <MESSAGE value="pytest testing" />
     <MESSAGE value="video, screenshots, trace" />
-    <option name="LAST_COMMIT_MESSAGE" value="video, screenshots, trace" />
+    <MESSAGE value="assertions" />
+    <option name="LAST_COMMIT_MESSAGE" value="assertions" />
   </component>
 </project>
