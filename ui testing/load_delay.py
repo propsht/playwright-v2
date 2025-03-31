@@ -1,4 +1,4 @@
-from playwright.sync_api import TimeoutError, Page,expect
+from playwright.sync_api import TimeoutError, Page, expect
 
 def test_dynamic_id(page: Page):
     page.goto("http://uitestingplayground.com")
