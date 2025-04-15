@@ -1,13 +1,8 @@
 import json
 from playwright.sync_api import *
 
-def test_users_api(playwright: Playwright):
-    api_context = playwright.request.new_context(
-        base_url="https://dummyjson.com"
-    )
-
-    response = api_context.get("/users/1")
-    response_products = api_context.get("/products")
+def test_users_api(page: Page):
+    response = page.goto("https://dummyjson.com/users/1")
 
     user_data = response.json()
 
