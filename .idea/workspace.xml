@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c91e9e-b3ea-4b80-a508-95ff51a0cec3" name="Changes" comment="api testin: crud, mock">
-      <change afterPath="$PROJECT_DIR$/optimization/parallelism_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/optimization/test_disabling_javascript.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/optimization/test_intercept_resource_request.py" afterDir="false" />
+    <list default="true" id="e3c91e9e-b3ea-4b80-a508-95ff51a0cec3" name="Changes" comment="optimization">
+      <change afterPath="$PROJECT_DIR$/tip.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tips/cli_arguments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tips/debugger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tips/emulate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tips/evaluate_javascript.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744683220335</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="optimization">
+      <option name="closed" value="true" />
+      <created>1745460971385</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745460971385</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +295,7 @@
     <MESSAGE value="page object model" />
     <MESSAGE value="network testing" />
     <MESSAGE value="api testin: crud, mock" />
-    <option name="LAST_COMMIT_MESSAGE" value="api testin: crud, mock" />
+    <MESSAGE value="optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimization" />
   </component>
 </project>
