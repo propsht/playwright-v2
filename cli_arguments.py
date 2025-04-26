@@ -1,6 +1,6 @@
 
 
-pytest
+#pytest
 # launch w/o browser --headed
 # slowdown run --slowmo=400
 # browser  --browser=webkit

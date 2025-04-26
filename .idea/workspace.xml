@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c91e9e-b3ea-4b80-a508-95ff51a0cec3" name="Changes" comment="optimization">
-      <change afterPath="$PROJECT_DIR$/tip.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tips/cli_arguments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tips/debugger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tips/emulate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tips/evaluate_javascript.py" afterDir="false" />
+    <list default="true" id="e3c91e9e-b3ea-4b80-a508-95ff51a0cec3" name="Changes" comment="tip">
+      <change afterPath="$PROJECT_DIR$/generate_report.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips/cli_arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli_arguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips/debugger.py" beforeDir="false" afterPath="$PROJECT_DIR$/tips/test_debugger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips/emulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/tips/test_emulate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips/evaluate_javascript.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluate_javascript.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +71,11 @@
       <recent name="$PROJECT_DIR$/playwright/auth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pom" />
+      <recent name="$PROJECT_DIR$/tips" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pom" />
       <recent name="$PROJECT_DIR$/playwright" />
       <recent name="$PROJECT_DIR$/pytest" />
-      <recent name="$PROJECT_DIR$/playwright/tests" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests for crud.test_update_user">
@@ -259,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745460971385</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tip">
+      <option name="closed" value="true" />
+      <created>1745630243337</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745630243337</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,6 +305,7 @@
     <MESSAGE value="network testing" />
     <MESSAGE value="api testin: crud, mock" />
     <MESSAGE value="optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimization" />
+    <MESSAGE value="tip" />
+    <option name="LAST_COMMIT_MESSAGE" value="tip" />
   </component>
 </project>
