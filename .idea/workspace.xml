@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3c91e9e-b3ea-4b80-a508-95ff51a0cec3" name="Changes" comment="tip">
-      <change afterPath="$PROJECT_DIR$/generate_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/test_feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/test_github_issue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/test_lenght.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tips/cli_arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli_arguments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tips/debugger.py" beforeDir="false" afterPath="$PROJECT_DIR$/tips/test_debugger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tips/emulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/tips/test_emulate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tips/evaluate_javascript.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluate_javascript.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for crud.test_update_user.executor": "Run",
-    "Python tests.Python tests for test_app.test_page_has_get_started_link.executor": "Run",
-    "Python tests.Python tests in making_api_call.py.executor": "Run",
-    "Python tests.Python tests in test_screenshot.py.executor": "Run",
-    "Python tests.Python tests in test_video.py.executor": "Run",
-    "Python.actions.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.authentication.executor": "Run",
-    "Python.event.executor": "Run",
-    "Python.locators.executor": "Run",
-    "Python.utils_test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/propsht/Documents/QA/projects/playwright-v2/optimization",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for crud.test_update_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_app.test_page_has_get_started_link.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in making_api_call.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_screenshot.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_video.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.actions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.authentication.executor&quot;: &quot;Run&quot;,
+    &quot;Python.event.executor&quot;: &quot;Run&quot;,
+    &quot;Python.locators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils_test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/propsht/Documents/QA/projects/playwright-v2/optimization&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/optimization" />
